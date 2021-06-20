@@ -18,3 +18,8 @@ if (randomNum1 > randomNum2) {
 } else {
   heading.innerText = "Draw!";
 }
+
+var btn = document.querySelector("button");
+btn.addEventListener("click", function(){
+  window.location.reload();
+})
