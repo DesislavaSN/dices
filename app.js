@@ -12,9 +12,9 @@ player1.setAttribute("src", "pics/dice" + randomNum1 + ".png");
 player2.setAttribute("src", "pics/dice" + randomNum2 + ".png");
 
 if (randomNum1 > randomNum2) {
-  heading.innerText = "Player 1 wins!";
+  heading.innerText = "🚩Player 1 wins!";
 } else if (randomNum1 < randomNum2) {
-  heading.innerText = "Player 2 wins!";
+  heading.innerText = "Player 2 wins!🚩";
 } else {
   heading.innerText = "Draw!";
 }
