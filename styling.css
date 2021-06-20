@@ -2,6 +2,7 @@
   width: 70%;
   margin: auto;
   text-align: center;
+  margin-bottom: 3%;
 }
 
 .dice {
@@ -30,6 +31,18 @@ p {
 
 img {
   width: 80%;
+}
+
+button{
+  font-weight: 700;
+  font-size: 2rem;
+  color: #fff;
+  font-family: 'Indie Flower', cursive;
+  border: 5px solid #4ECCA3;
+  border-radius: 10px;
+  background-color: #393E46;
+  padding: 12px;
+  margin-left: 45%;
 }
 
 footer {
